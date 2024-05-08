@@ -1,5 +1,5 @@
 
-export const NavBar = () => {
+export const NavBar = ({setCategory}) => {
   return (
     <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -12,7 +12,7 @@ export const NavBar = () => {
         <ul className="navbar-nav">
         <li className="nav-item">
 
-          <div className="nav-link" >Technology</div>
+          <div className="nav-link" onClick={()=>setCategory}>Technology</div>
         </li>
         <li className="nav-item">
 
