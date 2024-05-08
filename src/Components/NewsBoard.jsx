@@ -7,4 +7,4 @@ export const NewsBoard = () => {
   )
 }
 
-export default App
+export default NewsBoard
