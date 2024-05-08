@@ -2,7 +2,7 @@
 export const NavBar = () => {
   return (
     <div>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Navbar</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@ export const NavBar = () => {
           <a className="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
-      
+
     </div>
   </div>
 </nav>
