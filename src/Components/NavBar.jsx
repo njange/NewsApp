@@ -12,27 +12,27 @@ export const NavBar = ({setCategory}) => {
         <ul className="navbar-nav">
         <li className="nav-item">
 
-          <div className="nav-link" onClick={()=>setCategory}>Technology</div>
+          <div className="nav-link" onClick={()=>setCategory("Technology")}>Technology</div>
         </li>
         <li className="nav-item">
 
-<div className="nav-link" >Business</div>
+<div className="nav-link" onClick={()=>setCategory("Business")}>Business</div>
 </li>
 <li className="nav-item">
 
-<div className="nav-link" >Health</div>
+<div className="nav-link" onClick={()=>setCategory("Health")}>Health</div>
 </li>
 <li className="nav-item">
 
-<div className="nav-link" >Science</div>
+<div className="nav-link" onClick={()=>setCategory("Science")}>Science</div>
 </li>
 <li className="nav-item">
 
-<div className="nav-link" >Sports</div>
+<div className="nav-link" onClick={()=>setCategory("Sports")}>Sports</div>
 </li>
 <li className="nav-item">
 
-<div className="nav-link" >Entertainment</div>
+<div className="nav-link" onClick={()=>setCategory("Entertainment")}>Entertainment</div>
 </li>
 
       </ul>
